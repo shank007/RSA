@@ -1,0 +1,16 @@
+2018-01-10 15:55:09.582 UTC [orderer/main] main -> INFO 001[0m Starting orderer:
+ Version: 1.0.0
+ Go version: go1.7.5
+ OS/Arch: linux/amd64
+2018-01-10 15:55:09.585 UTC [orderer/main] initializeSecureServerConfig -> INFO 002[0m Starting orderer with TLS enabled
+2018-01-10 15:55:09.694 UTC [orderer/main] initializeMultiChainManager -> INFO 003[0m Not bootstrapping because of existing chains
+2018-01-10 15:55:09.704 UTC [orderer/multichain] NewManagerImpl -> INFO 004[0m Starting with system channel testchainid and orderer type solo
+2018-01-10 15:55:09.704 UTC [orderer/main] main -> INFO 005[0m Beginning to serve requests
+[33m2018-01-10 15:55:09.706 UTC [orderer/common/deliver] Handle -> WARN 006[0m Error reading from stream: rpc error: code = Canceled desc = context canceled
+[33m2018-01-10 16:03:59.898 UTC [orderer/common/deliver] Handle -> WARN 007[0m [channel: mychannel] Error sending to stream: rpc error: code = Internal desc = transport is closing
+[33m2018-01-10 16:13:58.711 UTC [orderer/common/deliver] Handle -> WARN 008[0m [channel: mychannel] Error sending to stream: rpc error: code = Internal desc = transport is closing
+[33m2018-01-10 16:23:58.708 UTC [orderer/common/deliver] Handle -> WARN 009[0m [channel: mychannel] Error sending to stream: rpc error: code = Internal desc = transport is closing
+[33m2018-01-10 16:33:58.761 UTC [orderer/common/deliver] Handle -> WARN 00a[0m [channel: mychannel] Error sending to stream: rpc error: code = Internal desc = transport is closing
+[33m2018-01-10 16:53:58.742 UTC [orderer/common/deliver] Handle -> WARN 00b[0m [channel: mychannel] Error sending to stream: rpc error: code = Internal desc = transport is closing
+[33m2018-01-11 03:13:58.788 UTC [orderer/common/deliver] Handle -> WARN 00c[0m [channel: mychannel] Error sending to stream: rpc error: code = Canceled desc = context canceled
+[33m2018-01-11 03:53:58.800 UTC [orderer/common/deliver] Handle -> WARN 00d[0m [channel: mychannel] Error sending to stream: rpc error: code = Canceled desc = context canceled
